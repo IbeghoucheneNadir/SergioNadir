@@ -19,8 +19,28 @@
 *.tar.gz
 *.rar
 
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/SergioNadir-ejb/build/
-/SergioNadir-ejb/dist/
-/SergioNadir-war/build/
+build/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+nbproject/project.properties
